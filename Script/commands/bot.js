@@ -149,6 +149,10 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    if ((event.body.toLowerCase() == "Ami Ohid") || (event.body.toLowerCase() == "kire")) {
      return api.sendMessage("হ্যা বস কেমন আছেন..?☺️", threadID);
    };
+
+   if ((event.body.toLowerCase() == "@ꪜ巛ᎿᎾᎷ〲চৌধুরী一ཐི༏ཋྀ࿐ꪜ巛 ") || (event.body.toLowerCase() == "অনুভূতিহীন ভালোবাসা") || (event.body.toLowerCase() == "@অনুভূতিহীন ভালোবাসা") || (event.body.toLowerCase() == "Janu")) {
+     return api.sendMessage("️—আস'সালামু আ'লাইকুম..!! 💚🥀 —আমি ব'ট এর owner বলছি আপনাকে কিভাবে সা'হায্য করতে পারি.??😕🤔", threadID);
+   };
   mess = "{name}"
   
   if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
