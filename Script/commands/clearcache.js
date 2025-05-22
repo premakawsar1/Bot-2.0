@@ -13,7 +13,7 @@ module.exports.run = async function ({ event, api, Currencies, args, Threads }) 
 const { writeFileSync, readdirSync, existsSync, unlinkSync } = require('fs-extra');
 const permission = ["100000083919585"];
              if (!permission.includes(event.senderID))
-             return api.sendMessage("ULLASH only.", event.threadID, event.messageID);
+             return api.sendMessage("OHID only.", event.threadID, event.messageID);
   /*
   if(args[0] == "spam"){
       const { resolve } = require('path');
