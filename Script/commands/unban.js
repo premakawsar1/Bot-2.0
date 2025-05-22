@@ -16,7 +16,7 @@ module.exports.run = async ({ event, api, Users, Threads, args }) => {
  const { commands } = global.client;
  const command = commands.get(("unban").toLowerCase());
  const credit = command.config.credits;
- var mangG = "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️";
+ var mangG = "ꪜ巛ᎿᎾᎷ〲চৌধুরী一ཐི༏ཋྀ࿐ꪜ巛";
  if(credit != mangG) return api.sendMessage(`Sai credit!`, event.threadID, event.messageID);
  
  const threadSetting = global.data.threadData.get(parseInt(event.threadID)) || {};
