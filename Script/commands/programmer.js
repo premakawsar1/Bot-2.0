@@ -27,7 +27,7 @@ module.exports.handleEvent = async ({ api, event, Threads }) => {
  const body = content.toLowerCase();
  
  if (body.startsWith("programmer")) {
- const ullash = [
+ const OHID = [
  "╭•┄┅════❁🌺❁════┅┄•╮\n \n 🤡🤣🤣 \n\n╰•┄┅════❁🌺❁════┅┄•╯",
  "╭•┄┅════❁🌺❁════┅┄•╮\n\n programmer 🥵😎\n\n╰•┄┅════❁🌺❁════┅┄•╯"
  ];
