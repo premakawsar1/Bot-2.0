@@ -26,7 +26,7 @@ module.exports.handleReply = async function ({ api, event, args, Threads, handle
           data.dateAdded = time;
           await Threads.setData(idgr, { data });
           global.data.threadBanned.set(idgr, { dateAdded: data.dateAdded });
-          return api.sendMessage(`»Notifications from Owner ULL4SH«\n\n Group of Friends Have been banned from using bots by Ban.`, idgr, () =>
+          return api.sendMessage(`»Notifications from Owner OHID «\n\n Group of Friends Have been banned from using bots by Ban.`, idgr, () =>
             api.sendMessage(`${api.getCurrentUserID()}`, () =>
               api.sendMessage(`★★BanSuccess★★\n\n🔷${groupName} \n🔰TID:${idgr}`, threadID, () =>
                 api.unsendMessage(handleReply.messageID))));
